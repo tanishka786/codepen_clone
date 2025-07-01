@@ -26,7 +26,8 @@ npm install
 npm start
 # baki chee changes!!!!!!!!!!!!!!!!!!!!!!!
 
-SO what are you waiting for , go and code like a pro😎
-<p>
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ25yY2IydzFpYzVjMW1kYzQybTQ5MjA1Yml1OG02cjcydnlteDB4YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ADD4w6XgqLBJohQdBK/giphy.gif">
+```
+SO what are you waiting for , go and code like a Pro😎
+<p align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ25yY2IydzFpYzVjMW1kYzQybTQ5MjA1Yml1OG02cjcydnlteDB4YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ADD4w6XgqLBJohQdBK/giphy.gif">
 </p>

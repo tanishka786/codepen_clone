@@ -103,3 +103,29 @@ SO what are you waiting for , go and code like a Pro😎
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ25yY2IydzFpYzVjMW1kYzQybTQ5MjA1Yml1OG02cjcydnlteDB4YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ADD4w6XgqLBJohQdBK/giphy.gif">
 </p>
+
+to download the boikler plate code : 
+```bash
+npx create-react-app <app name you wnat to give>
+```
+to start run 
+```bash
+npm start
+```
+
+To create a production build, use 
+```bash
+npm run build
+```
+
+1: boiler plate code lidhu
+2: required changes changes kaira
+3: component name ni folder banavi
+4: components ma app.js put karwanu and index.js ma aa app.js nu path proper karwanu 
+5:npm i codemirror react-codemirror2 #texteditor che a 
+
+if ni thai tho do
+npm uninstall codemirror @uiw/react-codemirror
+
+npm install codemirror@5 react-codemirror2 --legacy-peer-deps
+to verify the installation : npm list react-codemirror2

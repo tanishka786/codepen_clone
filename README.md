@@ -129,3 +129,9 @@ npm uninstall codemirror @uiw/react-codemirror
 
 npm install codemirror@5 react-codemirror2 --legacy-peer-deps
 to verify the installation : npm list react-codemirror2
+
+
+download the extension : ES7 React/Redux/GraphQL/React-Native snippets
+
+rfc  + tab : boiler plate code for : 
+{/**/} use comments in  react 

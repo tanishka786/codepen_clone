@@ -1,11 +1,23 @@
-import react, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Editor from './Editor'
 function App() {
   const [html, setHtml] = useState('')
   const [css, setCss] = useState('')
   const [js, setJs] = useState('')
+  const [srcDoc, setSrcDoc] = useState('')
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setSrcDoc(`
+            <html>
+              <body>${html}</body>
+              <style>${css}</style>
+              <script>${js}</script>
+            </html>
+      `)
+    }, 1000) /*updates the o/p as soon as the 1sec typing speed takes place */
 
-  
+    return () => clearTimeout(timeout)
+  }, [html, css, js])
 
   return (
     <>
@@ -31,6 +43,7 @@ function App() {
       </div>
       <div className="pane">
         <iframe
+          srcDoc={srcDoc}
           title="output"
           sandbox="allow-scripts"
           style={{ border: 'none' }}

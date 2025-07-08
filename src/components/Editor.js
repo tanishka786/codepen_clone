@@ -1,4 +1,4 @@
-import react from 'react'
+import React from 'react'
 import 'codemirror/lib/codemirror.css'  //importing the above line as it contains all the css required for code editor layout
 import 'codemirror/theme/material.css'
 import 'codemirror/mode/xml/xml' // xml is same as html so they both gonea work as itis.

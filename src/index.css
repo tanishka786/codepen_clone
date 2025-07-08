@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.top-pan {
+.top-pane{
     background-color: hsl(225, 6%, 25%);
     /* HSL color with hue = 225° (blue tone), 6% saturation (very dull), and 25% lightness (dark shade) */
 }
@@ -21,25 +21,29 @@ body {
     background-color: hsl(225, 6%, 25%);
 }
 
-.editor-title{
-    display:flex;
-    justify-content:space-between;
-    background-color:hsl(225, 6%, 25%);
-    color:white;
-    padding: .5rem .5rem .5rem 1rem;  /* top right bottom left and rem = root em , 1rem = 16px*/
-    border-top-left-radius: .5rem ;
-    border-top-right-radius:.5rem ;
+.editor-title {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 6%, 13%);
+    color: white;
+    padding: .5rem .5rem .5rem 1rem;
+    /* top right bottom left and rem = root em , 1rem = 16px*/
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
 }
 
 /*making the output section responsive as we zoom it */
-.CodeMirror{ 
-   height:100% !important; /*overwrites the default style from editor*/
+.CodeMirror {
+    height: 100% !important;
+    /*overwrites the default style from editor*/
 }
-.code-mirror-wrapper{
-    flex-grow:1;
-    border-bottom-right-radius:.5rem;
-    border-bottom-left-radius:.5rem;
-    overflow:hidden;
+
+.code-mirror-wrapper {
+    flex-grow: 1;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    /* overflow:hidden;*/
+    /* mistake che aaya the resolve karwanu che then only deploy kar ssuuuuuuuuuuuu */
 }
 
 

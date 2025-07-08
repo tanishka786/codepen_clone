@@ -20,7 +20,7 @@ A lightweight and responsive CodePen-like web editor built using **React**. It l
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/codepen-clone.git
+git clone https://github.com/tanishka786/codepen_clone.git
 cd codepen-clone
 
 # Install dependencies

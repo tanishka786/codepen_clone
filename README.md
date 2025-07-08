@@ -66,10 +66,10 @@ Shortcut: type `rfc` + `Tab` to auto-generate boilerplate React component.
 
 ---
 
-## 🎬 Then build like a **Pro 😎**
+## 🎬 CODE✌🏻 like a **Pro 😎**
 
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ25yY2IydzFpYzVjMW1kYzQybTQ5MjA1Yml1OG02cjcydnlteDB4YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ADD4w6XgqLBJohQdBK/giphy.gif" width="80%">
 </p>
 
-Made with 💙 using React.
+<P align="center">Made with 💙 using React.</P>

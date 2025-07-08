@@ -2,7 +2,7 @@ body {
     margin: 0;
 }
 
-.top-pane{
+.top-pane {
     background-color: hsl(225, 6%, 25%);
     /* HSL color with hue = 225° (blue tone), 6% saturation (very dull), and 25% lightness (dark shade) */
 }
@@ -19,6 +19,26 @@ body {
     flex-direction: column;
     padding: .5rem;
     background-color: hsl(225, 6%, 25%);
+}
+
+.editor-container.collapsed {
+    flex-grow: 0;
+}
+
+/*so that code also shrink as we shrink the box of code*/
+.editor-container.collapsed .CodeMirror-scroll {
+    position: absolute;
+    overflow: hidden !important;
+    /*hidding the scrollbar in each code section*/
+}
+
+/*the fontawesome icon which helps to expand and collapse the code window for each language indivially*/
+.expand-collapse-btn {
+    margin-left: .5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
 
 .editor-title {
@@ -42,7 +62,7 @@ body {
     flex-grow: 1;
     border-bottom-left-radius: .5rem;
     border-bottom-right-radius: .5rem;
-    /* overflow:hidden;*/
+    overflow: hidden;
     /* mistake che aaya the resolve karwanu che then only deploy kar ssuuuuuuuuuuuu */
 }
 

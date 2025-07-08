@@ -135,3 +135,9 @@ download the extension : ES7 React/Redux/GraphQL/React-Native snippets
 
 rfc  + tab : boiler plate code for : 
 {/**/} use comments in  react 
+
+7: to download the font awsome for small icons used here we write:
+
+```bash
+npm i @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/fontawesome-svg-core
+```

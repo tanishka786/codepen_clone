@@ -12,7 +12,7 @@ A lightweight and responsive CodePen-like web editor built using **React**. It l
 - 💾 Auto Save to Local Storage
 - 🎨 Clean and Minimal UI
 - 💻 Built with React & CodeMirror
-- 🚀 Deployed on [Netlify](https://your-netlify-link.netlify.app)
+- 🚀 Deployed on [Netlify](https://codepc.netlify.app)
 
 ---
 

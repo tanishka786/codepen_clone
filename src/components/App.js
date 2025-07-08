@@ -6,7 +6,7 @@ function App() {
   const [html, setHtml] = useLocalStorage('html','')
   const [css, setCss] = useLocalStorage('css','')
   const [js, setJs] = useLocalStorage('js','')
-  const [srcDoc, setSrcDoc] = useLocalStorage('')
+  const [srcDoc, setSrcDoc] = useState('')
 
   useEffect(() => {
     const timeout = setTimeout(() => {

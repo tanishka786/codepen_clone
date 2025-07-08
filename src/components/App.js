@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import react, { useState } from 'react';
 import Editor from './Editor'
 function App() {
   const [html, setHtml] = useState('')
   const [css, setCss] = useState('')
   const [js, setJs] = useState('')
 
-
+  
 
   return (
     <>
@@ -16,27 +16,27 @@ function App() {
           value={html}
           onChange={setHtml}
         />
-         <Editor
+        <Editor
           language="css"
           displayName="CSS"
           value={css}
           onChange={setCss}
         />
-         <Editor
+        <Editor
           language="javascript"
           displayName="JS"
           value={js}
           onChange={setJs}
         />
-      </div> {/*upper part of coding i.e html ,css and js window SO 3 EDITOR are mentioned */}
-      <div className="pane"> {/*output part */}
+      </div>
+      <div className="pane">
         <iframe
           title="output"
           sandbox="allow-scripts"
           style={{ border: 'none' }}
           width="100%"
           height="100%"
-        />{/* for writing text */}
+        />
       </div>
     </>
   )

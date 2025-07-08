@@ -1,4 +1,4 @@
-import React from 'react'
+import react from 'react'
 import 'codemirror/lib/codemirror.css'  //importing the above line as it contains all the css required for code editor layout
 import 'codemirror/theme/material.css'
 import 'codemirror/mode/xml/xml' // xml is same as html so they both gonea work as itis.
@@ -19,7 +19,7 @@ export default function Editor(props) {
     }
 
     return (
-        <div clssName="editor-container">
+        <div className="editor-container">
             <div className="editor-title">
                 {displayName}
                 <button>O/C</button>
@@ -32,7 +32,7 @@ export default function Editor(props) {
                     lineWrapping: true,
                     lint: true,
                     mode: language,
-                    theme: "material",
+                    theme: 'material',
                     lineNumbers: true
                 }}
             />

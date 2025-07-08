@@ -1,11 +1,13 @@
-import React, { useLocalStorage, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Editor from './Editor'
 import useLocalStorage from '../hooks/useLocalStorage'
+
 function App() {
   const [html, setHtml] = useLocalStorage('html','')
   const [css, setCss] = useLocalStorage('css','')
   const [js, setJs] = useLocalStorage('js','')
   const [srcDoc, setSrcDoc] = useLocalStorage('')
+
   useEffect(() => {
     const timeout = setTimeout(() => {
       setSrcDoc(`
@@ -15,7 +17,7 @@ function App() {
               <script>${js}</script>
             </html>
       `)
-    }, 1000) /*updates the o/p as soon as the 1sec typing speed takes place */
+    }, 250) /*updates the o/p as soon as the 250ms typing speed takes place */
 
     return () => clearTimeout(timeout)
   }, [html, css, js])
